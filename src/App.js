@@ -1,3 +1,3 @@
 export default function App() {
-  return <div>Hello React</div>;
+  return <div className="steps">Hello React</div>;
 }
