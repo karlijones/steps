@@ -6,5 +6,7 @@ export default function App() {
       <div>3</div>
     </div>
   
+    <p className="message">Hello</p>
+    <div className="buttons"></div>
   </div>;
 }
