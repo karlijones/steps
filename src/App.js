@@ -11,6 +11,10 @@ export default function App() {
     alert("Previous");
   }
 
+  function handleNext() {
+    alert("Next");
+  }
+
   return <div className="steps">
     <div className="numbers">
       <div className={`${step >= 1 ? "active" : "" }`}>1</div>
@@ -31,7 +35,7 @@ export default function App() {
     </button>
     <button 
       style={{backgroundColor: '#7950f2', color: '#fff'}}
-      onClick={() => alert("Next")}
+      onClick={handleNext}
     >
       Next
     </button>
