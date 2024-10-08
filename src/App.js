@@ -6,7 +6,7 @@ import { useState } from "react";
 ];
  
 export default function App() {
-  useState 
+  const [step, setStep] = useState(1);
 
   function handlePrevious() {
     alert("Previous");
