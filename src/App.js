@@ -9,7 +9,7 @@ export default function App() {
   const [step, setStep] = useState(1);
 
   function handlePrevious() {
-    alert("Previous");
+    setStep(step - 1);
   }
 
   function handleNext() {
