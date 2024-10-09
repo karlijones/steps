@@ -4,7 +4,8 @@ import { useState } from "react";
   "Apply for jobs 💼",
   "Invest your new income 🤑",
 ];
- 
+
+//setter function tied to state variable
 export default function App() {
   const [step, setStep] = useState(1);
 
