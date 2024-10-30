@@ -53,17 +53,15 @@ function Steps() {
         <Button 
             bgColor='#7950f2' 
             textColor='#fff' 
-            onClick={handlePrevious} 
-            text="Previous"
-            emoji="👈"
-        />
+            onClick={handlePrevious}>
+            <span>👈</span> Previous
+        </Button>
         <Button 
             bgColor='#7950f2' 
             textColor='#fff' 
-            onClick={handleNext} 
-            text="Next"
-            emoji="👉"
-        />
+            onClick={handleNext}>
+            Next <span>👉</span>
+        </Button>
        </div>
      </div>
     )}
